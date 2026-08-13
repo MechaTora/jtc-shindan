@@ -37,7 +37,7 @@ export default async function ResultPage({ params }: Props) {
   const tier = getTier(score);
 
   const shareText = `うちの会社のJTC度は${score}%「${tier.name}」でした…\n${tier.catch}\nあなたの会社のJTC度は？\n#JTC診断`;
-  const shareUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(`https://jtc-shindan.vercel.app/result/${score}`)}`;
+  const shareUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(`https://jtc-shindan-tawny.vercel.app/result/${score}`)}`;
 
   return (
     <main className="flex-1 flex items-center justify-center px-6 py-12">

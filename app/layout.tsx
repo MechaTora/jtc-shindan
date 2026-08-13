@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const SITE_URL = "https://jtc-shindan.vercel.app";
+const SITE_URL = "https://jtc-shindan-tawny.vercel.app";
 const TITLE = "JTC診断";
 const DESCRIPTION = "社内の独特な言葉づかいと会社の属性から、あなたの会社のJTC度を0〜100%で診断。";
 
