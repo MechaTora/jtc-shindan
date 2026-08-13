@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   keywords: ["JTC診断", "JTC", "伝統的日本企業", "企業文化診断", "社畜", "会社あるある"],
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
+  verification: { google: "lIOpRdMI20bcc0U1Rl1lgRkIfUNFebk0yGvk9TENGYQ" },
   openGraph: {
     type: "website",
     locale: "ja_JP",
